@@ -34,10 +34,8 @@ while True:
     else:
         print("Please enter a valid option")
 print("You have chosen " + option)
-print("Enter the first number")
-a = int(input())
-print("Enter the second number")
-b = int(input())
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number:"))
 if option == "1":
     print(add(a,b))
 elif option == "2":
