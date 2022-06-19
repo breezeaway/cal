@@ -12,7 +12,10 @@ def times(x, y):
 
 
 def divide(x, y):
-    return x / y
+    if y == 0:
+        return ("cannot divide by 0")
+    else:
+        return x / y
 
 
 # Terminal
